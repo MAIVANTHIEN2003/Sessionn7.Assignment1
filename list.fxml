@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Session7.Assignment.ListController">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="409.0" prefWidth="596.0">
+            <children>
+                <Text layoutX="252.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product List" wrappingWidth="90.423828125" />
+                <Button layoutX="461.0" layoutY="19.0" mnemonicParsing="false" onAction="#formScreen" prefHeight="25.0" prefWidth="95.0" text="Add product" />
+                <TableView fx:id="tbView" layoutX="14.0" layoutY="48.0" prefHeight="347.0" prefWidth="561.0">
+                    <columns>
+                        <TableColumn fx:id="cName" minWidth="0.0" prefWidth="142.0" text="Name" />
+                        <TableColumn fx:id="cDonvi" minWidth="0.0" prefWidth="105.0" text="Donvi" />
+                        <TableColumn fx:id="cGia" minWidth="0.0" prefWidth="93.0" text="Gia" />
+                        <TableColumn fx:id="cSoLuong" minWidth="0.0" prefWidth="75.0" text="SoLuong" />
+                        <TableColumn fx:id="cEdit" minWidth="0.0" prefWidth="77.0" text="Edit" />
+                        <TableColumn fx:id="cDelete" minWidth="0.0" prefWidth="68.0" text="Delete" />
+
+                    </columns>
+                </TableView>
+            </children></AnchorPane>
+    </content>
+</ScrollPane>
